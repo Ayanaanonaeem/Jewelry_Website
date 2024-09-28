@@ -1,0 +1,355 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+nav {
+	/* border: 2px solid green; */
+	background-color: rgb(255, 255, 255);
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 30px;
+	padding-right: 100px;
+}
+nav ul li {
+	list-style: none;
+	padding: 10px 20px;
+	font-size: 18px;
+	/* background-image: url('/images/pearl-1875468_1280.jpg'); */
+}
+nav ul li a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+nav ul li a:hover {
+	/* color: rgb(11, 34, 136); */
+    color: rgb(50, 81, 221);
+}
+.active{
+    color: rgb(50, 81, 221);
+}
+.image {
+	/* border: 2px solid rgb(255, 0, 0); */
+	height: 500px;
+}
+.logo {
+	padding: 20px;
+	padding-left: 100px;
+}
+.container {
+	height: 700px;
+    transition: all ease-in 2s;
+    /* border: 2px solid black; */
+    
+
+}
+.image {
+    height: 700px;
+    background-image: url('https://png.pngtree.com/background/20230426/original/pngtree-the-sapphire-necklace-is-shown-on-a-black-background-picture-image_2488980.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+	object-fit: cover;
+}
+.image h1{
+    color: rgb(255, 255, 255);
+    padding:180px 0px 0px 20px ;
+    /* text-shadow: 38px 48px 7px rgb(34, 103, 176);; */
+    font-size: 70px;
+}
+.image button{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    /* margin-left: 10px; */
+    background:rgb(121,119,124);
+    backdrop-filter: blur(8px);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    /* font-weight: bolder; */
+    border: 2px solid black;
+}
+.image p{
+    font-size: 30px;
+    padding: 20px 0px 0px 25px;
+    color: white;
+}
+.cont-2{
+    height: 450px;
+    margin-top: 80px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 40%;
+    background-image: url('https://cdn.pixabay.com/photo/2024/05/20/16/57/ai-generated-8775790_1280.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-left: 40px;
+}
+.right{
+    /* border: 2px solid black;  */
+    height: 400px;
+    width: 50%;
+}
+.right h1{
+    font-size: 60px;
+    margin-bottom: 40px;
+    color: black;
+}
+ .right p{
+    font-size: 30px;
+    /* margin-left: 10px; */
+ }
+ .right button{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    background-color:rgb(11, 34, 136);
+    border: none;
+    color: white;
+    /* margin-left: 10px; */
+ }
+ .cont-3{
+    height: 450px;
+    margin-top: 80px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+ }
+.left-1{
+    height: 400px;
+    width: 45%;
+    /* border: 2px solid black; */
+    margin-left: 80px;
+}
+.left-1 h1{
+    font-size: 60px;
+    margin-right: 40px;
+    color: black;
+    margin-bottom: 40px;
+}
+.left-1 p{
+    font-size: 30px;
+}
+
+.left-1 button{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    background-color:rgb(11, 34, 136);
+    
+    border: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.right-1{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 40%;
+    background-image: url('/images/silver-791300_1280.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-right: 40px;
+}
+.cont-4{
+    height: 450px;
+    margin-top: 80px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.left-2{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 40%;
+    background-image: url('https://cdn.pixabay.com/photo/2023/09/14/18/21/ai-generated-8253479_1280.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-left: 40px;
+}
+.right-2{
+    /* border: 2px solid black;  */
+    height: 400px;
+    width: 50%;
+}
+.right-2 h1{
+    font-size: 60px;
+    margin-bottom: 40px;
+    color: black;
+}
+ .right-2 p{
+    font-size: 30px;
+    /* margin-left: 10px; */
+ }
+ .right-2 button{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    background-color:rgb(11, 34, 136);
+
+    border: none;
+    color: white;
+    /* margin-left: 10px; */
+ }
+ .cont-5{
+    height: 450px;
+    margin-top: 80px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+ }
+.left-3{
+    height: 400px;
+    width: 45%;
+    /* border: 2px solid black; */
+    margin-left: 80px;
+}
+.left-3 h1{
+    font-size: 60px;
+    margin-right: 40px;
+    color: black;
+    margin-bottom: 40px;
+}
+.left-3 p{
+    font-size: 30px;
+}
+
+.left-3 button{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    background-color:rgb(11, 34, 136);
+
+    border: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.right-3{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 40%;
+    background-image: url('https://wallpapercave.com/wp/wp2375437.jpg');
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-right: 40px;
+}
+.contact{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 650px;
+   padding-top: 50px;
+    background-image: url('https://getwallpapers.com/wallpaper/full/7/a/7/928836-cool-jewelry-wallpapers-1920x1200-image.jpg');
+    background-position:left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-attachment: fixed;
+    /* background: black; */
+}
+.contact h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: white;
+    
+}
+.form{
+    /* border: 2px solid green; */
+    height: 400px;
+    width: 50%;
+    margin: 20px;
+}
+.first input{
+    
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.second input{
+    
+    width: 625px;
+    height: 40px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+}
+textarea{
+    width: 625px;
+    height: 150px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form button{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 50px;
+    height: 30px;
+    width: 150px;
+    background-color:rgb(11, 34, 136) ;
+    color: white;
+    border: none;
+}
+.last{
+    padding-top:80px;
+    background-color: white;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top: 2px solid rgb(32,129,192);
+    /* border: 2px solid black; */
+    
+}
+.last h3{
+    padding-bottom: 30px;
+    color: rgb(0, 0, 0);;
+
+}
+.last p{
+    color: rgb(11, 34, 136);;
+}
+ .footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
+ .contact_html{
+    display: none;
+ }
+ 
