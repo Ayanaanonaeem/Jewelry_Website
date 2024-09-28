@@ -163,7 +163,7 @@ nav ul li a:hover {
     /* border: 2px solid black; */
     height: 400px;
     width: 40%;
-    background-image: url('/images/silver-791300_1280.jpg');
+    background-image: url('./images/silver-791300_1280.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
